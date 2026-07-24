@@ -35,4 +35,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/sagar510/LeetcodeProblems/tree/master/0347-top-k-frequent-elements) |
+## Tree
+|  |
+| ------- |
+| [0226-invert-binary-tree](https://github.com/sagar510/LeetcodeProblems/tree/master/0226-invert-binary-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [0226-invert-binary-tree](https://github.com/sagar510/LeetcodeProblems/tree/master/0226-invert-binary-tree) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0226-invert-binary-tree](https://github.com/sagar510/LeetcodeProblems/tree/master/0226-invert-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0226-invert-binary-tree](https://github.com/sagar510/LeetcodeProblems/tree/master/0226-invert-binary-tree) |
 <!---LeetCode Topics End-->
