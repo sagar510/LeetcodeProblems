@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String Matching
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/sagar510/LeetcodeProblems/tree/master/0125-valid-palindrome) |
 | [0572-subtree-of-another-tree](https://github.com/sagar510/LeetcodeProblems/tree/master/0572-subtree-of-another-tree) |
 ## Hash Function
 |  |
@@ -91,4 +92,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/sagar510/LeetcodeProblems/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+## Two Pointers
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/sagar510/LeetcodeProblems/tree/master/0125-valid-palindrome) |
 <!---LeetCode Topics End-->
