@@ -1,32 +1,55 @@
 class Solution {
     public void moveZeroes(int[] nums) {
-        int w=0, r=0;
         int n = nums.length;
+        int slow = 0;
+        int fast = 0;
 
-        while(r<n){
-            if(nums[w]!=0 && nums[r]==0){
-                w++;
-                r++;
-            }else if(nums[w]==0 && nums[r]!=0){
-                nums[w] = nums[r];
-                nums[r] = 0;
-                w++;
-                r++;
-            }else if(nums[r]==0 && nums[w]==0){
-                r++;
-            }else if(nums[r]!=0 && nums[w]!=0){
-                w++;
-                r++;
+        while(fast<n && nums[fast]!=0){
+            slow++;
+            fast++;
+        }
+
+        while(fast < n){
+            if(nums[slow]==0 && nums[fast]!=0){
+                nums[slow] = nums[fast];
+                nums[fast] = 0;
+                slow++;
             }
+            fast++;
         }
     }
 }
 
 /*
-[0,1,0,3,12]
- w
-     r
+nums = [1,3,0,0,12]
+            s    f      
 
-[1,3,12,0,0]
-        w   r
+       [1,0,0,3,12]
+          s f
+       
+       [1,3,12,0,0]
+            s    f
+
+num 0
+l++ r--
+
+best 
+0 num  -> swap
+l++ r--
+
+num num
+l++
+
+0 0
+r--
+
+
+
+1 2 3 0 0
+      s
+         f
+
 */
+
+
+
